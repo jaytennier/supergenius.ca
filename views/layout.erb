@@ -1,13 +1,25 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Jason J. Tennier, Super Genius</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700|Raleway:600" rel="stylesheet">
     <link rel="stylesheet" href="assets/application.css"/>
   </head>
 
   <body>
-    <div class="container">
-      <h1>Jason J. Tennier, Super Genius</h1>
+    <header>
+      <nav class="navbar navbar-default navbar-static-top">
+        <p class="navbar-text pull-right">
+          Hi there, I'm Jay Tennier and I'm currently
+          <span class="label label-success">
+            looking for work!
+          </span>
+        </p>
+      </nav>
+    </header>
 
+    <div class="container">
       <%= yield %>
     </div>
   </body>
