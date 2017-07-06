@@ -11,3 +11,6 @@ gem "sinatra-contrib", "~> 2.0.0"
 # Assets
 # Use sprockets to handle asset compilation
 gem "sprockets", "~> 3.7.1"
+
+# Use Sass obviously
+gem "sass"
